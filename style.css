@@ -4,7 +4,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 70vh;
   box-sizing: border-box;
   background-color: #020217;
   color: #F6F6F6;
@@ -16,13 +16,17 @@ body {
 
 .apresentacao {
   display: flex;
+  gap: 58px;
   align-items: center;
-  justify-content: space-between;
-  margin: 235px 402px 366px 357px;
+  justify-content: center;
+  margin: 10% 15%;
 }
 
 .apresentacao__conteudo {
-  width: 593px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -55,4 +59,9 @@ body {
   color: #000000;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;  
+}
+
+.apresentacao__imagem {
+  width: 400px;
+  height: 500px;
 }
